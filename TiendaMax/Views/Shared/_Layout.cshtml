@@ -12,6 +12,7 @@
 <body>
 
     <div class="contenedor">   
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom box-shadow mb-3">
             <div class="container-fluid">
@@ -39,13 +40,12 @@
                  <li> <a class="dropdown-item" href="#">Procesadores</a> </li>
                  <li> <a class="dropdown-item" href="#">Almacenamiento</a> </li>
                  <li> <a class="dropdown-item" href="#">Conectividad</a> </li>
-              </ul>
+       </ul>
 
 
 
 
-
-                    </li>
+           </li>
                           <li class="nav-item">
                             <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="index">Contacto</a>
                         </li>
@@ -55,7 +55,7 @@
         
         <input type="search"  placeholder="Buscar producto" style="height:38px; text-align:center" />
         
-            <span class="input-group-btn">  
+     <span class="input-group-btn">  
               <button type="button" class="btn btn-primary">
              <span class="bi bi-search""></span>
              </button>       
@@ -65,12 +65,25 @@
 
                    </li>
 
-                   <li class="nav-item btn btn-dark bi-person-fill">Iniciar sesión</li>
+                   <li class="nav-item">
+                       
+                     <a class="nav-link text-white bi-person-fill" href="#">Iniciar sesión</a>
+                        </li>
 
-                </ul>
+                    <li class="nav-item ">
+                        <a href="#" class="nav-link bi bi-cart carrito"></a>
+
+                        </li>
+              </ul>
              
                 </div>
+                <button class="navbar-toggler botonMenu" type="button" style="border:2px solid purple" onclick="abrirSide()">    
 
+
+                    <span class="navbar-toggler-icon"></span>
+
+
+                </button>
             </div>
         </nav>
     </header>
@@ -98,7 +111,7 @@
            <ul style="list-style: none"> <h3>Información util</h3>
                <li>Preguntas frecuentes</li>
                <li>Métodos de pago</li>
-                <li>sucursales</li>
+               <li>sucursales</li>
 
                </ul>
                
@@ -115,13 +128,48 @@
         </div>
            
         </div>
-     <div class="row ps-2"><div >Copyright @DateTime.Now.Year -TiendaMax - Todos los derechos reservados </div> </div>
+     <div class="row ps-2" style="margin-top:55px "><div >Copyright @DateTime.Now.Year -TiendaMax - Todos los derechos reservados </div> </div>
 
     </footer>
     
 
-</div>
+    <div id="Menulateral" class="Menulateral"> 
+         <a  href="#" class="botoncerrar" onclick="cerrarmenu()">&times</a>
+         <a  href="#" class="dropdown-toggle" role="button" id="menusecundario" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
 
+         
+             <ul class="dropdown-menu menu4" aria-labelledby="menusecundario">
+             <li><a class="dropdown-item" href="#">Placas Madre</a>  </li> 
+            <li><a class="dropdown-item" href="#">Tarjetas de video</a> </li> 
+              <li> <a class="dropdown-item" href="#">Memorias Ram</a> </li> 
+              <li> <a class="dropdown-item" href="#">Teclados</a> </li> 
+             <li> <a class="dropdown-item" href="#">Monitores</a> </li> 
+              <li> <a class="dropdown-item" href="#">Gabinetes</a> </li> 
+                <li> <a class="dropdown-item" href="#">Mouses</a> </li>
+                 <li> <a class="dropdown-item" href="#">Procesadores</a> </li>
+                 <li> <a class="dropdown-item" href="#">Almacenamiento</a> </li>
+                 <li> <a class="dropdown-item" href="#">Conectividad</a> </li>
+       </ul>
+       
+
+         <a  href="#">Promociones</a>
+         <a  href="#">Contacto</a>
+         <a  href="#" class="bi-person-fill">Iniciar sesión</a>
+
+                                 <div class="d-flex buscadormenulateral">
+        
+        <input type="search"  placeholder="Buscar producto" style="height:38px; text-align:center" />
+        
+            <span class="input-group-btn">  
+              <button type="button" class="btn btn-primary" style="font-size:16px ">
+             <span class="bi bi-search"></span>
+             </button>       
+             </span>
+
+               </div>
+
+</div>
+        </div>
 
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

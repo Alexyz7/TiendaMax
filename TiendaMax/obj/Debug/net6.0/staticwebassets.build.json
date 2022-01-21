@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+cxdjO/Ej7L634pQaEX4lbo3ewVdj5mI/fLIp/CfEUI=",
+  "Hash": "FvhZ/M6TFWjsBidQxkBPjssOPNyHcR9l9E8i+ZDQ714=",
   "Source": "TiendaMax",
   "BasePath": "_content/TiendaMax",
   "Mode": "Default",
@@ -151,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagenes\\rtx.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Alexyz\\source\\repos\\TiendaMax\\TiendaMax\\wwwroot\\Imagenes\\user.jpg",
+      "SourceId": "TiendaMax",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Alexyz\\source\\repos\\TiendaMax\\TiendaMax\\wwwroot\\",
+      "BasePath": "_content/TiendaMax",
+      "RelativePath": "Imagenes/user.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagenes\\user.jpg"
     },
     {
       "Identity": "C:\\Users\\Alexyz\\source\\repos\\TiendaMax\\TiendaMax\\wwwroot\\js\\site.js",

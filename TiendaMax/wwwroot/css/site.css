@@ -72,11 +72,86 @@ body {
 
 }
 
+@media all and (min-width: 992px){
+
+
+    .botonMenu{
+
+
+        display:none;
+
+
+    }
+
+
+}
+
+
+.Menulateral {
+
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+ /*   transition: 0.5s;*/
+    padding-top: 60px;
+}
+
+
+.Menulateral a {
+
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+  /*  transition: 0.3s;*/
+}
+
+.Menulateral .botoncerrar {
+
+    font-size:38px;
+    position:absolute;
+    top:0 ;
+    right:10px;
+
+
+}
+
+.dropdown-menu> li> a:hover{
+
+
+    color:black;
+
+
+}
+
+ .menu4 >li > a{
+
+    font-size:16px;
+
+
+}
+
+ .Menulateral .menu4 {
+
+
+    position:absolute !important;
+    right:0 !important;
+
+}
 
 
 
 
+.Menulateral a:hover {
 
+    color: #f1f1f1;
+}
 
 .mensaje1 {
 
@@ -110,6 +185,23 @@ body {
 }
 
 
+
+.buscadormenulateral{
+
+    margin-left:12px;
+    margin-top:8px;
+    font-size:16px;
+
+}
+
+.carrito{
+
+    color:white;
+    font-size:25px;
+    margin-top: -5px;
+    
+
+}
 
 
 
